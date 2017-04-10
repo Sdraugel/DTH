@@ -57,11 +57,11 @@ public class Upload {
 		this.log = guilog;
 		this.progressBar = progress;
 		this.progressBar.setValue(0);
-		this.user = "U_DTH_ETL_RW";
-		this.pass = "F28h9x_DlPN";
-		this.SID = "QDTHGBL0";
-		this.port = "1521";
-		this.DB_URL = "miaibv179.mia.michelin.com";	
+		this.user = "";
+		this.pass = "";
+		this.SID = "";
+		this.port = "";
+		this.DB_URL = "m";	
 		this.DB_Conn = "jdbc:oracle:thin:" + "@" + this.DB_URL + ":" + this.port + ":" + this.SID;
 		this.NNum = getNNumber();
 		this.currentDate = formatDate();
